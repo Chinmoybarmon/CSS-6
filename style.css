@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: skyblue;
+}
+.lorem{
+    border:2px solid red;
+    margin: auto;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    overflow: scroll;
+    color: white;
+    background-color: black;
+}
+.css{
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+.css:hover{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.font{
+    font-family: 'Pacifico', cursive;
+    color:white;
+    background-color: black;
+    float: left;
+    margin-left: 5px;
+    border: 2px solid green;
+    height: 200px;
+    width: 30%;
+    overflow: hidden;
+
+}
+.hover{
+    text-align: center;
+    border: 2px solid red;
+    background-color: black;
+    color: red;
+    
+
+}
+.pic{
+    border: 2px solid red;
+    height: 400px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: white;
+    
+}
+.hover:hover+.pic{
+    background-image: url(image/21478472.webp);
+}
+h1::before{
+    content: Unorder;
+    color: red;
+}
+li:first-child{
+    color: red;
+}
+li:nth-child(2n+1){
+    color:green;
+}
+.list{
+    text-align: center;
+}
+.box{
+    border: 1px solid darkgreen;
+    height: 200px;
+    width: 370px;
+    margin: auto;
+    background-color: darkgreen;
+    position: relative;
+}
+.dd{
+    border: 5px solid red;
+    margin:auto;
+    height: 50px;
+    width: 150px;
+    position: relative;
+}
+.cercle{
+    border: 1px solid darkgreen;
+    border-radius: 40px;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    background-color: red;
+    margin: auto;
+    margin-top:90px;
+}
